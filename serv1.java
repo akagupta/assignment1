@@ -24,6 +24,7 @@ public class serv1
                 PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
                 String line="";
                 String line1 = "";
+                
                 double result;
                 line1 = reader.readLine();
                 int length=line1.length();
